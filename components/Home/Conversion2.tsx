@@ -163,6 +163,25 @@ const Conversion2 = () => {
               </div>
             </div>
           </div>
+          {/* badge */}
+          <div
+            ref={badgeRef}
+            className="absolute bottom-0 -right-96 bg-white rounded-l-2xl  px-10 py-10"
+            style={{ boxShadow: '0 4px 25px rgba(0,0,0,0.15)' }}
+          >
+            <h1 className="font-bold text-[18px] sm:text-[20px] mr-36">
+              Tchat Omnichannel
+            </h1>
+            <li className="flex items-center gap-3">
+              <Image
+                src="/images/check-orange.svg"
+                width={18}
+                height={18}
+                alt=""
+              />
+              Facebook, Messenger avec la page du cabinet.
+            </li>
+          </div>
         </div>
 
         {/* RIGHT SIDE: CARD + VERTICAL LINE + ICON */}
